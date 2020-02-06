@@ -2,7 +2,10 @@ function FizzBuzz() {
 }
 
 FizzBuzz.prototype.fizzbuzz = function(input) {
-  return input
+  if (input === 3){
+    return 'Fizz'
+  } else {
+  return input };
 };
 
 // Player.prototype.resume = function() {

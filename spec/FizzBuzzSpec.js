@@ -8,6 +8,9 @@ describe("FizzBuzz", function() {
   it("should return the number if not divisible by 5 or 3", function() {
     expect(result.fizzbuzz(2)).toEqual(2);
   });
+  it("should return Fizz is the number is divisible by 3", function(){
+    expect(result.fizzbuzz(3)).toEqual('Fizz');
+  })
 
 
   // describe("when song has been paused", function() {
