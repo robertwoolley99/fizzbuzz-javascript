@@ -17,6 +17,9 @@ describe("FizzBuzz", function() {
   it ("should return Fizz if the number is 6", function(){
     expect(result.fizzbuzz(6)).toEqual('Fizz');
   });
+  it("should return Buzz if the number is 10", function(){
+    expect(result.fizzbuzz(10)).toEqual('Buzz');
+  })
 
 
   // describe("when song has been paused", function() {
