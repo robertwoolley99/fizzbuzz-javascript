@@ -19,7 +19,10 @@ describe("FizzBuzz", function() {
   });
   it("should return Buzz if the number is 10", function(){
     expect(result.fizzbuzz(10)).toEqual('Buzz');
-  })
+  });
+  it("should return FizzBuzz if the number is divisible by 3 and 5", function(){
+    expect(result.fizzbuzz(15)).toEqual('FizzBuzz')
+  });
 
 
   // describe("when song has been paused", function() {
