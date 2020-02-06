@@ -8,9 +8,15 @@ describe("FizzBuzz", function() {
   it("should return the number if not divisible by 5 or 3", function() {
     expect(result.fizzbuzz(2)).toEqual(2);
   });
-  it("should return Fizz is the number is divisible by 3", function(){
+  it("should return Fizz if the number is divisible by 3", function(){
     expect(result.fizzbuzz(3)).toEqual('Fizz');
-  })
+  });
+  it("should return Buzz if the number is divisible by 5", function(){
+    expect(result.fizzbuzz(5)).toEqual('Buzz');
+  });
+  it ("should return Fizz if the number is 6", function(){
+    expect(result.fizzbuzz(6)).toEqual('Fizz');
+  });
 
 
   // describe("when song has been paused", function() {

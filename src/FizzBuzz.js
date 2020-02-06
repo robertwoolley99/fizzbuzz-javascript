@@ -2,8 +2,10 @@ function FizzBuzz() {
 }
 
 FizzBuzz.prototype.fizzbuzz = function(input) {
-  if (input === 3){
+  if (input % 3 === 0){
     return 'Fizz'
+  } else if  (input === 5){
+      return 'Buzz'
   } else {
   return input };
 };
